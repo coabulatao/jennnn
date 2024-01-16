@@ -119,7 +119,52 @@ namespace MyApplication
     
     Console.WriteLine("The group of explorers came together as a result of a vision that predicted the coming of " + name1 + ", an evil sorcerer who sought to utilize the " + item + " to submerge " + place + " in an unending period of darkness. They traveled through dangerous jungles, across precarious heights, and into the darkest dungeons. They ran into many obstacles and supernatural creatures along the route. They were aided in navigating difficult terrain by " + name2 + "'s " + ability1 + ", " + name5 + "'s " + ability2 + ", " + name3 + "'s " + ability3 + ", " + name4 + "'s " + ability4 + ", and " + name6 + "'s " + ability5 + ". When they eventually arrived at " + name1 + "'s lair, a furious struggle broke out. They overcame the evil sorcerer's defenses due to their combined power and special skills. " + ability1 + " of " + name2 + " pierced " + name1 + "'s magical barriers, " + name3 + "'s " + ability2 + " shattered his illusions, " + name1 + "'s " + ability3 + " weakened his powers, " + name4 + "'s " + ability4 + " broke his cursed armor, and " + name6 + "'s " + ability5 + " provided the mobility to outmaneuver him. In the end, it was " + name5 + " who delivered the final blow with " + ability2 + ", shattering the " + item + " and defeating " + name1 + ". The realm of " + place + " was saved from eternal darkness, thanks to the combined effort of " + name1 + ", " + name4 + ", " + name2 + ", " + name3 + ", and " + name6 + ".");
 
+// RIGHT TRIANGLE
 
+        int num1;
+
+do
+{
+    Console.Write("Input: ");
+    string input = Console.ReadLine();
+
+    if (int.TryParse(input, out num1) && num1 > 0)
+    {
+        break;
     }
-  }
+
+    Console.WriteLine("Invalid input.");
+} while (true);
+
+for (int i = 1; i <= num1; i++)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}
+
+        // SUMMATION
+        
+        IDKKKKK
+        
+        // INVERSED-RIGHT TRIANGLE
+        
+        int num3;
+
+do
+{
+    Console.Write("Input: ");
+} while (!int.TryParse(Console.ReadLine(), out num3) || num3 <= 0);
+
+for (int i = num3; i >= 1; i--)
+{
+    for (int j = 1; j <= i; j++)
+    {
+        Console.Write(j);
+    }
+    Console.WriteLine();
+}
+    }
 }
