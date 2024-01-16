@@ -1,0 +1,125 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+   public static void Main(string[] args)
+    {
+        
+    // Weight in pounds to kilograms
+    Console.Write("Weight in Pounds (lbs): ");
+
+    float pounds = float.Parse(Console.ReadLine());
+    double kilo = pounds / 2.205;
+    
+    Console.WriteLine("Weight converted to Kilograms:" + kilo);
+    
+    Console.WriteLine ("================================================");
+    
+    // Length in miles to kilometer
+    Console.Write("Length in Miles (mi): ");
+    float Miles = float.Parse(Console.ReadLine());
+    double kilometer = Miles * 1.6;
+    
+    Console.WriteLine("Length converted to Kilometer:" + kilometer);
+    
+    Console.WriteLine ("================================================");
+    
+    // Temperature in fahrenheit to celcius
+    Console.Write("Temperature in Fahrenheit(°F): ");
+    float Fahrenheit  = float.Parse(Console.ReadLine());
+    double Celsius = (5/9)*(Fahrenheit - 2);
+    
+    Console.WriteLine("Temperature to Celsius (°C): " + Celsius);
+    
+    // Student 1 age
+    
+    int ageStudent1;
+    Console.Write ("Age of Student 1: " );
+    ageStudent1 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 2 age
+    
+    int ageStudent2;
+    Console.Write ("Age of Student 2: " );
+    ageStudent2 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 3 age
+    
+    int ageStudent3;
+    Console.Write ("Age of Student 3: " );
+    ageStudent3 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 4 age
+    
+    int ageStudent4;
+    Console.Write ("Age of Student 4: " );
+    ageStudent4 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 5 age
+    
+    int ageStudent5;
+    Console.Write ("Age of Student 5: " );
+    ageStudent5 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 6 age
+    
+    int ageStudent6;
+    Console.Write ("Age of Student 6: " );
+    ageStudent6 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 7 age
+    
+    int ageStudent7;
+    Console.Write ("Age of Student 7: " );
+    ageStudent7 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 8 age
+    
+    int ageStudent8;
+    Console.Write ("Age of Student 8: " );
+    ageStudent8 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 9 age
+    
+    int ageStudent9;
+    Console.Write ("Age of Student 9: " );
+    ageStudent9 = Convert.ToInt32(Console.ReadLine());;
+    
+    // Student 10 age
+    
+    int ageStudent10;
+    Console.Write ("Age of Student 10: " );
+    ageStudent10 = Convert.ToInt32(Console.ReadLine());;
+
+   // Average age of the students
+   
+   int age = ( ageStudent1 + ageStudent2 + ageStudent3 + ageStudent4 + ageStudent5 + ageStudent6 + ageStudent7 + ageStudent8 + ageStudent9 + ageStudent10 );
+    double average = age / 10;
+    Console.WriteLine("The average age of students is: " + average);
+         
+    Console.WriteLine ("================================================");
+    
+    // Characters names
+    string name1 = "Rimuru", name2 = "Zoro", name3 = "Julius", name4 = "Tryndamere", name5 = "Enel", name6 = "Luna";
+    
+    // Abilities names
+    string ability1 = "Eagle's eye",
+           ability2 = "Thunderstrike",
+           ability3 = "Arcane Scepter",
+           ability4 = "Oathbreaker",
+           ability5 = "Skytriders";
+           
+    // Item name
+    string item =  "Enchanted Amulet";
+    
+    // Place name
+    string place = "Eldoria";
+    
+    Console.WriteLine("The group of explorers came together as a result of a vision that predicted the coming of " + name1 + ", an evil sorcerer who sought to utilize the " + item + " to submerge " + place + " in an unending period of darkness. They traveled through dangerous jungles, across precarious heights, and into the darkest dungeons. They ran into many obstacles and supernatural creatures along the route. They were aided in navigating difficult terrain by " + name2 + "'s " + ability1 + ", " + name5 + "'s " + ability2 + ", " + name3 + "'s " + ability3 + ", " + name4 + "'s " + ability4 + ", and " + name6 + "'s " + ability5 + ". When they eventually arrived at " + name1 + "'s lair, a furious struggle broke out. They overcame the evil sorcerer's defenses due to their combined power and special skills. " + ability1 + " of " + name2 + " pierced " + name1 + "'s magical barriers, " + name3 + "'s " + ability2 + " shattered his illusions, " + name1 + "'s " + ability3 + " weakened his powers, " + name4 + "'s " + ability4 + " broke his cursed armor, and " + name6 + "'s " + ability5 + " provided the mobility to outmaneuver him. In the end, it was " + name5 + " who delivered the final blow with " + ability2 + ", shattering the " + item + " and defeating " + name1 + ". The realm of " + place + " was saved from eternal darkness, thanks to the combined effort of " + name1 + ", " + name4 + ", " + name2 + ", " + name3 + ", and " + name6 + ".");
+
+
+    }
+  }
+}
